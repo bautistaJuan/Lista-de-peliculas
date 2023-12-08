@@ -13,21 +13,19 @@ body {
 }
 
 .contenedor {
-    width: 90%;
-    max-width: 1000px;
     margin: 40px auto 100px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
 
-@media (min-width:380px) {
+@media (min-width:500px) {
     .contenedor {
         width: 90%;
         max-width: 1000px;
         margin: 40px auto 100px auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 40px;
     }
 }
@@ -53,7 +51,8 @@ body {
 }
 
 .contenedor .pelicula .poster {
-    width: 100%;
+    width: auto;
+    height: 380px;
     margin-bottom: 10px;
     border-radius: 15px;
 }
